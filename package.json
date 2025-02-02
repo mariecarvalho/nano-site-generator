@@ -1,0 +1,17 @@
+{
+  "name": "nano-site-generator",
+  "version": "1.0.0",
+  "main": "site.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.1"
+  }
+}
