@@ -15,7 +15,7 @@ fse.emptyDirSync(distPath);
 fse.copySync(`${srcPath}/assets`, `${distPath}/assets`);
 
 // Read pages templates
-globP('**/*.ejs', { cwd: `${srcPath}/pages` })
+globP('**/*.@(md|ejs)', { cwd: `${srcPath}/pages` })
   .then((files) => {
     files.forEach((file) => {
       const fileData = path.parse(file);
